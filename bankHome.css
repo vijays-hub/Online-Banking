@@ -1,0 +1,217 @@
+@font-face{
+    font-family: Raleway;
+    src: url(Raleway-SemiBold.ttf);
+}
+
+body{
+    background-image: url("bank_background3.jpg");
+    background-size: cover;
+}
+/* .jumbotron
+{
+    background-color: grey;
+    opacity: 50%;
+    height: 60px;
+} */
+#logo
+{
+    font-family: Raleway;
+    font-weight: bolder;
+    color:white;
+    font-size: 50px;
+    margin-left: 50px;
+    border-right: 1px solid red;
+    padding-right: 10px;
+    text-decoration: none;
+}
+#help
+{
+    background-color:darkkhaki;
+    border-radius: 12px;
+    margin: 0 3px 7px 800px;
+
+}
+#help:hover
+{
+   background-color: burlywood;
+   border-radius: 12px;
+}
+#helpInfo
+{
+   color: darkseagreen;
+   font-family: Raleway;
+   font-size: 16px;
+   margin: 0 5px 0 0px;
+}
+#helpInfo:hover
+{
+    font-size: 18px;
+}
+#contactUs
+{
+    background-color:darkkhaki;
+    border-radius: 12px;
+    margin: 0 0px 5px 0px;
+}
+#contactUs:hover
+{
+   background-color: burlywood;
+   border-radius: 12px;
+}
+#contactUsInfo
+{
+   color: darkseagreen;
+   font-family: Raleway;
+   font-size: 16px;
+   margin: 0 10px 0 -2px;
+
+}
+#contactUsInfo:hover
+{
+    font-size: 18px;
+}
+
+#home
+{
+    font-family: Raleway;
+    
+}
+
+#services
+{
+    font-family: Raleway;
+    
+}
+#servicesInfo
+{
+    font-family: Raleway;
+    background-color: peru;
+    
+}
+#careers
+{
+    font-family: Raleway;
+    
+}
+#careersInfo
+{
+    font-family: Raleway;
+    background-color: peru;
+    
+}
+#feedback
+{
+    font-family: Raleway;
+    
+}
+#feedbackInfo
+{
+    font-family: Raleway;
+    background-color: peru;
+    
+}
+.col-sm-8
+{
+    background-color: transparent;
+    background: url("bank_background3.jpg");
+    animation: bank_Info 20s infinite;
+}
+@keyframes bank_Info 
+{
+    25%
+    {
+        background: url("bankInfo1.jpg");
+        background-size: cover;
+    }
+    50%
+    {
+        background: url("bankInfo2.jpg");
+        background-size: cover;
+    }
+    75%
+    {
+        background: url("bankInfo3.jpg");
+        background-size: cover;
+    }
+    100%
+    {
+        background: url("bank_background3.jpg");
+        background-size: cover;
+    }
+}
+#registrDiv
+{
+    margin-top: 55px;
+    padding-top: 15px;
+    padding-left: 75px;
+    border: 3px solid yellow;
+    border-radius: 5%;
+    color: white;
+    font-family: Raleway;
+    font-size: 16px;
+}
+#registrDiv h3
+{
+    padding-left: 10px;
+}
+#registrDiv button
+{
+    margin-left: 50px;
+    background-color:#32CD32;
+    border-radius: 10%;
+    
+}
+#registrDiv button:hover
+{
+    background-color:#B2946C;
+    
+}
+#registrDiv button a
+{
+    color: black;
+    text-decoration: none;
+    
+}
+/* #registrDiv2
+{
+    border: 5px solid yellow;
+     margin: 10px 20px 10px 20px;
+     padding: 10px 20px 60px 50px;
+     color: white;
+    font-family: Raleway;
+    font-size: 16px;
+} */
+#article pre
+{
+    background: none;
+    border: none;
+    opacity: 100%;
+}
+
+#footer pre 
+{
+    background: none;
+    border: none;
+    margin-top: -120px;
+    font-size: 16px;
+    font-family: Raleway;
+    
+}
+#footer pre a
+{
+    color: white;
+    border-right: 1px solid red;
+    padding-right: 5px;
+}
+#footer pre img
+{
+    height: 30px;
+    margin-top: 0px;
+    background: darkkhaki;
+    border-radius: 150%;
+}
+#footer pre img:hover
+{
+    background-color: burlywood;
+}
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <form  onsubmit="return validation()"  action="https://www.instagram.com">
+        F N<input type="text" name="" id="fName"><span class="msg" style="color: red;"></span> <br><br>
+        L N<input type="text" name="" id="lName"><span class="msg" style="color: red;"></span> <br><br>
+        P N<input type="number" name="" id="phone"><span class="msg" style="color: red;"></span> <br><br>
+        P<input type="password" name="" id="pass"><span class="msg" style="color: red;"></span> <br><br>
+        C P<input type="password" name="" id="cpass"><span class="msg" style="color: red;"></span> <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+<script>
+    function validation()
+    {
+        var fName= document.getElementById("fName").value
+        var errMsg= document.getElementsByClassName("msg")
+
+        if(fName.length==" ")
+        {
+            errMsg[0].innerHTML="Name is empty"
+            return false
+        }
+        else if(fName.length<3)
+        {
+            errMsg[0].innerHTML="Name is less than 3"
+            return false
+        }
+        else if(fName.length>15)
+        {
+            errMsg[0].innerHTML="Name is more than 15"
+            return false
+        }
+        else if(isNaN(fName)==false)
+        {
+            errMsg[0].innerHTML="Name cant contain numbers"
+            return false
+        }
+
+        var lName= document.getElementById("lName").value
+    
+        if(lName.length==" ")
+        {
+            errMsg[1].innerHTML="Last Name is empty"
+            return false
+        }
+        else if(lName.length<3)
+        {
+            errMsg[1].innerHTML="Last Name is less than 3"
+            return false
+        }
+        else if(lName.length>15)
+        {
+            errMsg[1].innerHTML="Last Name is more than 15"
+            return false
+        }
+        else if(isNaN(lName)==false)
+        {
+            errMsg[1].innerHTML="Last Name cant contain numbers"
+            return false
+        }
+
+        var ph= document.getElementById("phone").value
+
+        if(ph.length==0)
+        {
+            errMsg[2].innerHTML="Number is empty macha"
+            return false
+        }
+        else if(ph.length<10)
+        {
+            errMsg[2].innerHTML="Number is less than 10"
+            return false
+        }
+        else if(ph.length>10)
+        {
+            errMsg[2].innerHTML="Number is greater than 10"
+            return false
+        }
+        else if(ph.charAt(0)<7)
+        {
+            errMsg[2].innerHTML="Number must start from 7/8/9"
+            return false
+        }
+
+        var pass=document.getElementById("pass").value
+        
+        var conpass=document.getElementById("cpass").value
+
+        if(pass.length=0)
+        {
+            errMsg[3].innerHTML="Empty"
+            return false
+        }
+        else if(pass.length<5)
+        {
+            errMsg[3].innerHTML="Less than 5"
+            return false
+        }
+
+        if(conpass!==pass)
+        {
+            errMsg[4].innerHTML="Doesnt Match"
+            return false
+        }
+
+        document.write(pass)
+    }
+
+
+</script>
+</html>

@@ -1,0 +1,289 @@
+@font-face{
+    font-family: Raleway;
+    src: url(Raleway-SemiBold.ttf);
+}
+
+body{
+    background-image: url("bank_background3.jpg");
+    background-size: cover;
+}
+/* .jumbotron
+{
+    background-color: grey;
+    opacity: 50%;
+    height: 60px;
+} */
+#logo
+{
+    font-family: Raleway;
+    font-weight: bolder;
+    color:white;
+    font-size: 50px;
+    margin-left: 50px;
+    border-right: 1px solid red;
+    padding-right: 10px;
+    text-decoration: none;
+}
+#help
+{
+    background-color:darkkhaki;
+    border-radius: 12px;
+    margin: 0 3px 7px 800px;
+
+}
+#help:hover
+{
+   background-color: burlywood;
+   border-radius: 12px;
+}
+#helpInfo
+{
+   color: darkseagreen;
+   font-family: Raleway;
+   font-size: 16px;
+   margin: 0 5px 0 0px;
+}
+#helpInfo:hover
+{
+    font-size: 18px;
+}
+#contactUs
+{
+    background-color:darkkhaki;
+    border-radius: 12px;
+    margin: 0 0px 5px 0px;
+}
+#contactUs:hover
+{
+   background-color: burlywood;
+   border-radius: 12px;
+}
+#contactUsInfo
+{
+   color: darkseagreen;
+   font-family: Raleway;
+   font-size: 16px;
+   margin: 0 10px 0 -2px;
+
+}
+#contactUsInfo:hover
+{
+    font-size: 18px;
+}
+
+#home
+{
+    font-family: Raleway;
+    
+}
+
+#services
+{
+    font-family: Raleway;
+    
+}
+#servicesInfo
+{
+    font-family: Raleway;
+    background-color: peru;
+    
+}
+#careers
+{
+    font-family: Raleway;
+    
+}
+#careersInfo
+{
+    font-family: Raleway;
+    background-color: peru;
+    
+}
+#feedback
+{
+    font-family: Raleway;
+    
+}
+#feedbackInfo
+{
+    font-family: Raleway;
+    background-color: peru;
+    
+}
+
+#article pre
+{
+    background: none;
+    border: none;
+    opacity: 100%;
+}
+
+#footer pre 
+{
+    background: none;
+    border: none;
+    margin-top: -120px;
+    font-size: 16px;
+    font-family: Raleway;
+    
+}
+#footer pre a
+{
+    color: white;
+    border-right: 1px solid red;
+    padding-right: 5px;
+}
+#footer pre img
+{
+    height: 30px;
+    margin-top: 0px;
+    background: darkkhaki;
+    border-radius: 150%;
+}
+#footer pre img:hover
+{
+    background-color: burlywood;
+}
+
+
+/* Transaction Area */
+#balInfo
+{
+    font-family: Raleway;
+    font-size: 20px;
+    margin: 0px 10px 0px 400px;
+    color: whitesmoke;
+}
+#currentBal
+{
+    height: 50px;
+    width: 150px;
+    font-family: Raleway;
+    font-size: 20px;
+    padding-left: 38px;
+    margin-bottom: 30px;
+    color: yellow;
+    background: none;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 15%;
+}
+#lateWith
+{
+    margin-right: 250px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 15%;
+    width: 250px;
+}
+#lateDepo
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid springgreen;
+    border-radius: 15%;
+    width: 250px;
+}
+#tran
+{
+    font-family: Raleway;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid red;
+    border-radius: 15%;
+    margin-left: 515px;
+}
+
+#select
+{
+    height: 50px;
+    width: 150px;
+    font-family: Raleway;
+    font-size: 18px;
+    color:yellow;
+    padding-left: 20px;
+    margin-right: 100px;
+    background: none;
+    border: none;
+}
+#select option
+{
+    background-color: yellowgreen;
+}
+#decr_msg
+{
+    font-family: Raleway;
+    font-size: 20px;
+    color: whitesmoke;
+}
+#descr
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 15%;
+    width: 300px;
+    margin-right: 20px;
+    font-size: 16px;
+    color: antiquewhite;
+    font-family: Raleway;
+    padding-left: 40px;
+}
+#amt_msg
+{
+    font-family: Raleway;
+    font-size: 20px;
+    color: whitesmoke;
+    font-size: 16px;
+    color: antiquewhite;
+    font-family: Raleway;
+    
+}
+#amt
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 15%;
+    width: 200px;
+    margin-right: 50px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: antiquewhite;
+    font-family: Raleway;
+}
+#subBut
+{
+    font-family: Raleway;
+    width: 50px;
+    border-radius: 5px;
+}
+#subBut:hover
+{
+    background-color: burlywood;
+}
+
+#tranHistory
+{
+    font-family: Raleway;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid red;
+    border-radius: 15%;
+    margin-left: 472px;
+}
+#depTables
+{
+    height: 100px;
+    width: 500px;
+    color: springgreen;
+    font-family: Raleway;
+}
+#withTables
+{
+    height: 100px;
+    width: 500px;
+    color:white;
+    font-family: Raleway;
+}

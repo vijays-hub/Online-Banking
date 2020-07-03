@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="bankTransactions.css">
+
+</head>
+<body>
+    <header id="header">
+        <span > <a id="logo" href="bankTransactions.html">WeUnited </a> </span>               <a href="help.html"> <img id="help" src="icons8-help-64.png" alt="Help_Icon" style="height: 30px;"> <a id="helpInfo" href="help.html">Help    | <a id="contactUsInfo" href="contactUs.html">Reach Us</a> <a href="contactUs.html"><img id="contactUs" src="icons8-call-64.png" alt="Contact_Icon" style="height: 30px;"></a>   
+
+    </header>
+    <!-- <div class="jumbotron">
+        <span id="logo">WeUnited</span>                         <img id="help" src="icons8-help-64.png" alt="Help_Icon" style="height: 20px;"> <a id="helpInfo" href="">Help</a><img id="contactUs" src="icons8-call-64.png" alt=""> <a id="contactUsInfo" href="">Contact Us</a>
+    </div> -->
+    <hr>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- <div class="navbar-header"> -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a id="home" href="bankTransactions.html">Home</a></li>
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Services <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Net Banking</a></li>
+                  <li><a href="">Credit Card</a></li>
+                  <li><a href="">Mobile Banking</a></li>
+                  <li><a href="">Savings Account</a></li>
+                  <li><a href="">U</a></li>
+                  <li><a href="">UPI</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Banking <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Current Account</a></li>
+                  <li><a href="">Savings Account</a></li>
+                  <li><a href="">Joint Account</a></li>
+                  <li><a href="">Women's Account</a></li>
+                  <li><a href="">Senior Citizen Account</a></li>
+                  <li><a href="">Fixed Deposit</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Borrow <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Personal Loan</a></li>
+                  <li><a href="">Home Loan</a></li>
+                  <li><a href="">Gold Loan</a></li>
+                  <li><a href="">Car Loan</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Security <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Life Insurance</a></li>
+                  <li><a href="">General Insurance</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="careers" class="dropdown-toggle" data-toggle="dropdown" href="#">Career<span class="caret"></span></a>
+                <ul id="careersInfo"class="dropdown-menu">
+                    <!-- IndusInd Bank -->
+                  <li><a href="">Retail Banking</a></li>  
+                  <li><a href="">Consumer finance division</a></li>
+                  <li><a href="">WeUnited Advantage</a></li>
+                  <li><a href="">Learning and Growth</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="feedback" class="dropdown-toggle" data-toggle="dropdown" href="#">Feedback<span class="caret"></span></a>
+                <ul id="feedbackInfo" class="dropdown-menu">
+                  <li><a href="">Feedback about Employees</a></li>
+                  <li><a href="">Feedback about Bank</a></li>
+                  <li><a href="">Personal Queries for Bank</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="feedback" class="dropdown-toggle" data-toggle="dropdown" href="transaction.html">Transactions<span class="caret"></span></a>
+                <ul id="feedbackInfo" class="dropdown-menu">
+                  <li><a href="transaction.html">Go To Transaction Page</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="How can we Help you?" style="background-color:aliceblue; font-family: Raleway;">
+                </div>
+                <button type="submit" class="btn btn-default" style="background-color:aliceblue; font-family: Raleway;">Find</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <div class="container-fluid"><marquee behavior="" direction="left"><p style="font-family: Raleway; color: seagreen;"> <mark>Disclaimer!!!!!!!</mark> : - It has come to our notice that fraudsters are calling our customers, impersonating as PAYTM representatives and on the pretext of soliciting the KYC details updation asking for card credentials & OTP by inducing customers to download an app/Link. Many customers have incurred financial losses. “Customers are advised not to fall prey to such calls & refrain from sharing card details, like card number, CVV, PIN,OTP etc </p>  </marquee></div>
+      <hr>
+      <div class="container-fluid" style="height: 100px;">
+        <div class="row">
+          <!-- column 1 -->
+            <div class="col-sm-6" id="alertcol1"> 
+                <div style="background:none;border: 1px solid yellow; border-radius: 5%; padding: 10px 50px 10px 50px;" > 
+                  <h3 style="text-align: center;">Phishing Alert</h3>
+                  <p style="text-align: center; text-align: justify;">
+                    WeUnited never sends email for getting customer information. Please report immediately to nearest branch if you receive any e-mail purported to be originated by Canara Bank to gather your UserID or Password or any other personal information. Our Bank does not ask for the details of your account/PIN/password. Therefore any one pretending to be asking you for information from the bank / technical team may be fraudulent entities, so please beware. You should know how to operate net transactions and if you are not familiar you may refrain from doing so. You may seek bank's guidance in this regard. Bank is not responsible for online transactions going wrong. We shall also not be responsible for wrong transactions and wanton disclosure of details by you. Viewing option and transactions option on the net are different. You may exercise your option diligently. 
+                  </p>
+                </div>
+                
+            </div>
+            <!-- column 2 -->
+            <div class="col-sm-6">
+              <div class="container" style=" width: 600px;">
+                <div style="border: 1px solid yellow; border-radius: 5%; margin-top: 200px;">
+              
+                 <span class="dateTime" style="font-size: 20px; color: whitesmoke; font-family: Raleway; margin-left: 180px; text-decoration: underline rosybrown;"></span>
+                  
+                 <div style="float: right; font-size: 20px; color: whitesmoke; font-family: Raleway;">
+                    <span class="dateTime"> </span>
+                    <span class="dateTime"> </span>
+                    <span class="dateTime"> </span>
+                    <span class="dateTime"> </span>
+                    <span class="dateTime"> </span>
+                  </div>
+
+
+                  <div style="font-size: 20px; color: whitesmoke; font-family: Raleway;">
+                    <br>
+                    <hr>
+                    <p style="text-align: center;text-decoration: underline red; ">Welcome, Vijay S Kumar...</p><br>
+                    <span style="padding-left: 10px;">Hope the Day is going fine for u!</span><br><br>
+                    <hr>
+                    <span style="padding-left: 10px;">Here are the Quick Options to make your BUSY day EASY</span> <br><br>
+                    <div style="padding-left: 10px;">
+                      <ul style="list-style-type: circle;">
+                        <li><button style="background: none; border: none;"><a class="quickOptions" href="transaction.html">Withdraw</a> </button></li>
+                        <li><button style="background: none; border: none;"><a class="quickOptions" href="transaction.html">Deposit</a> </button></li>
+                        <li><button style="background: none; border: none;"><a class="quickOptions" href="transaction.html">Recharge</a> </button></li>
+                        <li><button style="background: none; border: none;"><a class="quickOptions" href="transaction.html">Pay Bills</a> </button></li>
+                        <li><button style="background: none; border: none;"><a class="quickOptions" href="transaction.html">Emergency Loan</a> </button></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  
+
+
+                </div>
+              </div>
+              </div>
+             
+          </div>
+       
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-6" >
+              <div style="width: 640px ;background: none; margin-top: -280px; border: 1px solid yellow;border-radius: 3%;margin-left: 15px;"> 
+                
+                <h2 style="font-family: Raleway;text-align: center;color: yellowgreen;">What's Happening Around You?</h2>
+                <hr>
+               <div style="font-family: Raleway;color: yellowgreen;">
+                <marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();" >
+                  <hr>
+                    <h4><a href="https://www.businesstoday.in/markets/stocks/share-market-live-sensex-nifty-stock-on-january-31-2020-yes-bank-sbi-hul-castrol-powergrid-tech-mahindra/story/395019.html">Share Market Update: Sensex ends 190 points lower, Nifty at 11,962; ONGC, Power Grid, Tata Motors top losers</a> </h4>
+                  <hr>
+                    <h4> <a href="https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-the-news-sbi-wipro-kotak-mahindra-bank-itc-yes-bank-and-hal/articleshow/73788878.cms">Stocks in the news: SBI, Wipro, Kotak Mahindra Bank, ITC, YES Bank and HAL.
+                      Tata Motors reported a consolidated net profit of Rs 1,755.88 crore in the three months ended December 31.</a></h4>
+                  <hr>
+                    <h4> <a href="https://economictimes.indiatimes.com/news/politics-and-nation/bank-strike-from-today-heres-what-gets-hit-and-what-doesnt/articleshow/73792693.cms">Bank strike from today: Here's what gets hit and what doesn't</a></h4>
+                  <hr>
+                    <h4> <a href="https://economictimes.indiatimes.com/news/economy/policy/view-public-sector-bank-network-a-good-idea/articleshow/73812393.cms">View: Public sector bank network, a good idea</a></h4>
+                  <hr>
+                    <h4>
+                      <a href="https://www.businesstoday.in/money/banking">
+                      Want to ensure smooth succession of deposits? Get a joint account
+                    </a>
+                    </h4>
+                  <hr>
+                    <h4>
+                      <a href="https://www.moneycontrol.com/news/business/budget/reporters-take-budget-2020-reviving-the-banking-sector-4875561.html">
+                        Reporter's Take | Budget 2020: Reviving the banking sector
+                    </a>
+                    </h4>
+                  <hr>
+                    <h4>
+                      <a href="https://www.moneycontrol.com/news/business/budget-2020-things-to-watch-out-for-the-banking-sector-4852351.html">
+                        Budget 2020: Things to watch out for the banking sector
+                    </a>
+                    </h4>
+                </marquee>
+               </div>
+
+              </div>
+
+              
+                
+            </div>
+         </div>
+      </div>
+      <hr>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- column 1 -->
+            <div class="col-sm-8">
+                <div style="height: 500px;background:none"> 
+                   <p style="font-size: 35px; font-family: Raleway;text-align: center;"> <mark>Deals that GETS you BEST out of WeUnited</mark> </p>
+                    
+
+                </div>
+                
+            </div>
+             <!-- column 2 -->
+            <div class="col-sm-4">
+                <div style="height: 500px;"> 
+                  <span style="font-family: Raleway;color: whitesmoke; font-size: 30px;"> Crafted JUST for You</span>
+                    <img src="offers.jpg" alt="" height="457px" width="420px">
+                </div>
+            </div> 
+          
+        </div>
+      </div>
+      <hr>
+    <article id="article">
+        <pre >                                                                  <span style="color: darkseagreen; font-size: 30px; font-family: Raleway; ">Things to love about WeUnited</span>   
+                   
+     <img src="bankAppreciation.png" alt="Best Checking Account" style="height: 150px; border-right: 1px solid red ; padding-right: 30px;">       <span style="font-size: 50px; font-family: Raleway; color: darkseagreen;">4.0</span>    <img src="bankRating.svg" alt="Bank Rating" style="height: 30px; margin-bottom: 20px; ">      <span style="font-size: 50px; font-family: Raleway; color: darkseagreen; border-left: 1px solid red; padding-left: 30px;">24/7</span>     <img src="customerSupport.jpg" alt="customerSupportIcon" style="height: 150px; border-radius: 100px; margin-bottom: 18px; ">    <span style="font-size: 50px; font-family: Raleway; color: darkseagreen; border-left: 1px solid red; padding-left: 30px;">100% <img src="security.jpg" alt="Security" style="height: 150px; width: 150px; border-radius: 100%; margin-bottom: 20px;">
+        <hr>
+    </pre>
+    </article>
+    <footer id="footer">
+        <pre><a href="">About Us  </a><a href="">  Terms and Conditions  </a><a href="">  Disclaimer  </a><a href="">  Code Of Committement  </a><a href="">  Privacy Policy  </a><span style="font-family: Raleway; color: white;">  COPYRIGHT @ 2020 WeUnited                               </span><span style="font-family: Raleway; color:whitesmoke">Visit Us:</span>  <a href="https://www.instagram.com/_.winning._.looser._/"><img src="icons8-instagram-80.png" alt=""></a> <a href="https://www.facebook.com/profile.php?id=100005905140398"><img src="icons8-facebook-64.png" alt=""></a> <a href="https://twitter.com/urstruly_vijay_"><img src="icons8-twitter-80.png" alt=""></a> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="icons8-google-64.png" alt=""></a> <a href="https://in.pinterest.com/vijayprabhas/"><img src="icons8-pinterest-50.png" alt=""></a></pre>
+    </footer>
+
+    
+</body>
+
+<script>
+  var week=[7]
+  week[0]="Sunday"
+  week[1]="Monday"
+  week[2]="Tuesday"
+  week[3]="Wednesday"
+  week[4]="Thursday"
+  week[5]="Friday"
+  week[6]="Saturday"
+
+  var month=[12]
+  month[0]="January"
+  month[1]="Febraury"
+  month[2]="March"
+  month[3]="April"
+  month[4]="May"
+  month[5]="June"
+  month[6]="July"
+  month[7]="August"
+  month[8]="September"
+  month[9]="October"
+  month[10]="Novermber"
+  month[11]="December"
+
+
+
+  var daTimeInfo=document.getElementsByClassName("dateTime")
+
+  var hours= new Date().getHours()
+  if(hours==0 || hours<12)
+  {
+
+    daTimeInfo[0].innerHTML="Good Morning!"
+    daTimeInfo[0].style.color="peru"
+
+  }
+  else if(hours==12 || hours<17)
+  {
+    daTimeInfo[0].innerHTML="Good Afternoon!"
+    daTimeInfo[0].style.color="yellow"
+  }
+  else if(hours==17 || hours<24)
+  {
+    daTimeInfo[0].innerHTML="Good Evening!"
+    daTimeInfo[0].style.color="black"
+    daTimeInfo[0].style.background="blue"
+
+  }
+
+  daTimeInfo[1].innerHTML="|"
+  daTimeInfo[1].style.color="red"
+  daTimeInfo[2].innerHTML=week[new Date().getDay()]+","
+  daTimeInfo[3].innerHTML= new Date().getDate()+" "
+  daTimeInfo[4].innerHTML= month[new Date().getMonth()]+" "
+  daTimeInfo[5].innerHTML= new Date().getFullYear()
+
+  
+
+
+</script>
+
+</html>

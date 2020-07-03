@@ -1,0 +1,320 @@
+@font-face{
+    font-family: Raleway;
+    src: url(Raleway-SemiBold.ttf);
+}
+
+body
+{
+    background-image: url("bank_background3.jpg");
+    background-size: cover;
+    animation: bank_background 20s infinite;
+    border-right: 50%;
+}
+/* @keyframes bank_background 
+{
+    25%
+    {
+        background: url("bank_background1.jpg");
+        background-size: cover;
+    }
+    50%
+    {
+        background: url("bank_background3.jpg");
+        background-size: cover;
+    }
+    75%
+    {
+        background: url("bank_background1.jpg");
+        background-size: cover;
+    }
+    100%
+    {
+        background: url("bank_background3.jpg");
+        background-size: cover;
+    }
+} */
+#headerDiv
+{
+    height: 100px;
+    background-color: none;
+    font-family: Raleway;
+    font-size: 50px;
+    color: azure;
+
+}
+#logo
+{
+    font-family: Raleway;
+    border-right: 1px solid red;
+    padding-right: 10px;
+}
+#logoLogin
+{
+    font-size: 16px;
+    font-family: Raleway;
+    margin-right: 10px;
+    margin-left: 650px;
+   color: darkseagreen;
+}
+#loginButton
+{
+    height: 30px;
+    width: 60px;
+    background-color: yellow;
+    font-family: Raleway;
+    border-radius: 5px;
+}
+#logIn
+{
+    text-decoration: none;
+    color: black;
+    
+}
+#loginButton:hover
+{
+    background-color: #32CD32;;
+}
+
+.formdiv
+{
+    border:2px solid red;
+    border-radius: 50px;
+    background: transparent;
+    width: 900px;
+    margin:0% 0% 10% 3.7%;
+    padding:0% 0% 5% 25%;
+}
+.signupMsg
+{
+    font-family: Raleway;
+    font-size: 15px;
+    color: darkseagreen;
+    margin-left: -22%;
+}
+#fname
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 480px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 5%;
+    padding-left: 2%;
+    color: darkseagreen;
+}
+#lname
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 480px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    color: darkseagreen;
+}
+#email
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 220px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    margin-right: 15px;
+    color: aliceblue;
+}
+#country
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 215px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    color: aliceblue;
+    
+}
+#birthday
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 155px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    color: aliceblue;
+    opacity: 100%;
+    padding-left: 2%;
+    margin-right: 12px;
+    font-weight: lighter;
+    opacity: 40%;
+}
+#birthmonth
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 155px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    opacity: 100%;
+    padding-left: 2%;
+    margin-right: 12px;
+    font-weight: lighter;
+    opacity: 40%;
+    color: aliceblue;
+}
+#birthyear
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 160px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    opacity: 100%;
+    padding-left: 2%;
+    margin-right: 18px;
+    opacity: 40%;
+    color: aliceblue;
+
+}
+
+#fatName
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 220px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    color: aliceblue;
+}
+
+.gender1
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 230px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    margin-left: 2%;
+    color: aliceblue;
+
+}
+select
+{
+    color:white;
+    font-weight: lighter;
+    opacity: 40%;
+}
+option{
+    color:red;
+    background-color: slategray;
+}
+
+#address
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 480px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    color: aliceblue;
+}
+#contactNum
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 480px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    color: aliceblue;
+}
+#pass
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 480px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    color: aliceblue;
+}
+#Conpass
+{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid  lightgrey;
+    width: 480px;
+    height: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    color: aliceblue;
+}
+#submit
+{
+    margin-left: 22%;
+    background-color: yellow;
+    border-radius: 15%;
+    width: 120px;
+    height: 50px;
+    font-family: Raleway;
+    font-size: 18px;
+}
+#submit:hover
+{
+    background-color: #32CD32;
+}
+#terms
+{
+    margin-left: 5%;
+    font-family: Raleway;
+    font-size: 15px;
+    color:yellow;
+    
+}
+a{
+    text-decoration: underline;
+    color:aliceblue;
+    font-family: Raleway;
+}
+
+input:focus{
+    outline: none;
+}

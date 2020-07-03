@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="transaction.css">
+
+</head>
+<body>
+    <header id="header">
+        <span > <a id="logo" href="bankTransactions.html">WeUnited </a> </span>               <a href="help.html"> <img id="help" src="icons8-help-64.png" alt="Help_Icon" style="height: 30px;"> <a id="helpInfo" href="help.html">Help    | <a id="contactUsInfo" href="contactUs.html">Reach Us</a> <a href="contactUs.html"><img id="contactUs" src="icons8-call-64.png" alt="Contact_Icon" style="height: 30px;"></a>   
+
+    </header>
+    <!-- <div class="jumbotron">
+        <span id="logo">WeUnited</span>                         <img id="help" src="icons8-help-64.png" alt="Help_Icon" style="height: 20px;"> <a id="helpInfo" href="">Help</a><img id="contactUs" src="icons8-call-64.png" alt=""> <a id="contactUsInfo" href="">Contact Us</a>
+    </div> -->
+    <hr>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- <div class="navbar-header"> -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a id="home" href="bankTransactions.html">Home</a></li>
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Services <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Net Banking</a></li>
+                  <li><a href="">Credit Card</a></li>
+                  <li><a href="">Mobile Banking</a></li>
+                  <li><a href="">Savings Account</a></li>
+                  <li><a href="">UPI</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Banking <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Current Account</a></li>
+                  <li><a href="">Savings Account</a></li>
+                  <li><a href="">Joint Account</a></li>
+                  <li><a href="">Women's Account</a></li>
+                  <li><a href="">Senior Citizen Account</a></li>
+                  <li><a href="">Fixed Deposit</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Borrow <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Personal Loan</a></li>
+                  <li><a href="">Home Loan</a></li>
+                  <li><a href="">Gold Loan</a></li>
+                  <li><a href="">Car Loan</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="services" class="dropdown-toggle" data-toggle="dropdown" href="#"> Security <span class="caret"></span></a>
+                <ul id="servicesInfo" class="dropdown-menu">
+                  <li><a href="">Life Insurance</a></li>
+                  <li><a href="">General Insurance</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="careers" class="dropdown-toggle" data-toggle="dropdown" href="#">Career<span class="caret"></span></a>
+                <ul id="careersInfo"class="dropdown-menu">
+                    <!-- IndusInd Bank -->
+                  <li><a href="">Retail Banking</a></li>  
+                  <li><a href="">Consumer finance division</a></li>
+                  <li><a href="">WeUnited Advantage</a></li>
+                  <li><a href="">Learning and Growth</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="feedback" class="dropdown-toggle" data-toggle="dropdown" href="#">Feedback<span class="caret"></span></a>
+                <ul id="feedbackInfo" class="dropdown-menu">
+                  <li><a href="">Feedback about Employees</a></li>
+                  <li><a href="">Feedback about Bank</a></li>
+                  <li><a href="">Personal Queries for Bank</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a id="feedback" class="dropdown-toggle" data-toggle="dropdown" href="#">Transactions<span class="caret"></span></a>
+                <ul id="feedbackInfo" class="dropdown-menu">
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="navbar-form navbar-right" action="/action_page.php">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="How can we Help you?" style="background-color:aliceblue; font-family: Raleway;">
+                </div>
+                <button type="submit" class="btn btn-default" style="background-color:aliceblue; font-family: Raleway;">Find</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <!-- <div class="container">
+        
+      </div> -->
+
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                    <span id="balInfo">Current Balance <input id="currentBal" type="text" value="50000.000" disabled> Cr</span>
+                    <br>
+                    <span style="font-family: Raleway; color: red;; margin: 0px 20px 0px 50px">Recent Debit  :</span><input id="lateWith" type="text" disabled> 
+                    <span style="font-family: Raleway; color: springgreen; margin: 0px 20px 0px 0px">Recent Credit  :</span> <input id="lateDepo" type="text" disabled> 
+                    <hr style="text-decoration: dashed">
+                    <span id="tran">Transact</span>
+                  <br><br>
+                    <!-- to compare based on values have some values inside options -->
+                    <select id="select" required>
+                        <option value="with">Withdraw</option>
+                        <option value="depos">Deposit</option>
+                        <option value="loan">Emergency Loan</option>
+                        <option value="recharge">E-Recharge</option>
+                        <option value="bills">Pay Bills</option>
+                    </select>
+                    <span id="decr_msg">Description - </span> <input type="text" id="descr" placeholder="Reason for the Transaction">
+                    <span id="amt_msg">Amount - </span> <input type="number" id="amt" placeholder="Amount to be Transacted">
+                    <button id="subBut" onclick="transaction()">Go</button>
+                    
+                    <br>
+                    <br>
+                    <hr>
+                    <span id="tranHistory">Transaction History</span>
+                    <br><br>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <table id="depTables" style="border: 3px solid springgreen; border-radius: 5%;" >
+                                   <tr >
+                                       <td colspan="2" style="text-align: center;color: springgreen;">Credit History</td>
+                                   </tr>
+                                   <tr style="border: 1px solid;">
+                                       <td style="border: 3px solid springgreen;text-align: center;">Description</td>
+                                       <td style="border: 3px solid springgreen;text-align: center;">Amount</td>
+                                   </tr>
+                                </table>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <table id="withTables" style="border: 3px solid red;">
+                                   <tr>
+                                       <th colspan="2" style="text-align: center; color:white;">Debit History </th>
+                                   </tr>
+                                   <tr style="border: 1px solid;">
+                                       <td style="border: 3px solid red;text-align: center;">Description</td>
+                                       <td style="border: 3px solid red;text-align: center;">Amount</td>
+                                   </tr>
+                                </table>
+                            </div>
+                         </div>
+                    </div>
+            </div>
+        </div>
+       </div>
+      <hr>
+    <article id="article">
+        <pre >                                                                  <span style="color: darkseagreen; font-size: 30px; font-family: Raleway; ">Things to love about WeUnited</span>   
+                   
+     <img src="bankAppreciation.png" alt="Best Checking Account" style="height: 150px; border-right: 1px solid red ; padding-right: 30px;">       <span style="font-size: 50px; font-family: Raleway; color: darkseagreen;">4.0</span>    <img src="bankRating.svg" alt="Bank Rating" style="height: 30px; margin-bottom: 20px; ">      <span style="font-size: 50px; font-family: Raleway; color: darkseagreen; border-left: 1px solid red; padding-left: 30px;">24/7</span>     <img src="customerSupport.jpg" alt="customerSupportIcon" style="height: 150px; border-radius: 100px; margin-bottom: 18px; ">    <span style="font-size: 50px; font-family: Raleway; color: darkseagreen; border-left: 1px solid red; padding-left: 30px;">100% <img src="security.jpg" alt="Security" style="height: 150px; width: 150px; border-radius: 100%; margin-bottom: 20px;">
+        <hr>
+    </pre>
+    </article>
+    <footer id="footer">
+        <pre><a href="">About Us  </a><a href="">  Terms and Conditions  </a><a href="">  Desclaimer  </a><a href="">  Code Of Committement  </a><a href="">  Privacy Policy  </a><span style="font-family: Raleway; color: white;">  COPYRIGHT @ 2020 WeUnited                               </span><span style="font-family: Raleway; color: yellowgreen;">Visit Us:</span>  <a href="https://www.instagram.com/_.winning._.looser._/"><img src="icons8-instagram-80.png" alt=""></a> <a href="https://www.facebook.com/profile.php?id=100005905140398"><img src="icons8-facebook-64.png" alt=""></a> <a href="https://twitter.com/urstruly_vijay_"><img src="icons8-twitter-80.png" alt=""></a> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="icons8-google-64.png" alt=""></a> <a href="https://in.pinterest.com/vijayprabhas/"><img src="icons8-pinterest-50.png" alt=""></a></pre>
+    </footer>
+
+    
+</body>
+<script src="transact.js"></script>
+</html>

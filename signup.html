@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome To WeUnited | SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="headerDiv">
+        <header > 
+            <pre >  <span id="logo"><a href="bankHome.html" style="text-decoration: none;">WeUnited</a> </span> <span id="logoLogin">Been here before?</span><button id="loginButton" ><a href="login.html" id="logIn">Login</a></button></pre>
+        </header>
+    </div>
+    <div class="formdiv">
+        
+        <form onsubmit="return validation()" action="login.html">
+            <pre class="signupMsg">Wondering How to Save and Secure HARD EARNED MONEY? All it takes is a simple Registration. Jot Your Details and we will take care of the rest.</pre> 
+            <pre class="signupMsg">                                                                                                        Secure Life in 5 mins!</pre> 
+            <input type="text" placeholder= "First Name" id="fname"><span id="nameMsg1" style="color: red; font-family: Raleway;"> </span>
+            <br><br>
+            <input type="text"  placeholder="Last Name" id="lname"><span id="nameMsg2" style="color: red; font-family: Raleway;"> </span>
+            <br><br>
+            <input type="text"  placeholder="Your Email" id="email" >
+            <input list="Country" id="country" placeholder="Country">
+            <datalist id="Country">
+                <option value=""></option>
+                <option value="India"></option>
+                <option value="United States"></option>
+                <option value="Europe"></option>
+                <option value="Switzerland"></option>
+                <option value="Malaysia"></option>
+            </datalist>
+            <br><br>
+		<select name="" id="birthday">
+            <option value="" disabled selected hidden > Day </option>
+			<option value=>1</option>
+			<option value=>2</option>
+			<option value=>3</option>
+			<option value=>4</option>
+			<option value=>5</option>
+			<option value=>6</option>
+			<option value=>10</option>
+			<option value=>15</option>
+			<option value=>20</option>
+			<option value=>25</option>
+			<option value=>30</option>
+		</select>
+		<select name="" id="birthmonth">
+            <option value="" disabled selected hidden > Month </option>
+			<option value=>Jan</option> 
+			<option value=>Feb</option>
+			<option value=>Mar</option>
+			<option value=>Apr</option>
+			<option value=>May</option>
+			<option value=>June</option>
+			<option value=>July</option>
+			<option value=>Aug</option>
+			<option value=>Sep</option>
+			<option value=>Oct</option>
+			<option value=>Nov</option>
+			<option value=>Dec</option>
+		</select>
+        <select name="" id="birthyear">
+            <option value="" disabled selected hidden > Year </option>
+			<option value=>1997</option> 
+			<option value=>1998</option>
+			<option value=>1999</option>
+			<option value=>2000</option>
+			<option value=>2001</option>
+			<option value=>2002</option>
+			<option value=>2003</option>
+			<option value=>2004</option> 
+			<option value=>2013</option>
+			<option value=>2015</option>
+			<option value=>2017</option>
+			<option value=>2019</option>
+		</select>
+        <br><br>
+        <input type="text" placeholder="Father Name" id="fatName"> 
+        <!-- <label class="gender">Gender:</label> -->
+        <select class="gender1">
+            <option value="">Gender</option>
+            <option value=>Male</option>
+            <option value=>Female</option>
+            <option value=>Others</option>
+        </select>        
+        <br><br>
+        <input type="text" placeholder="Address" id="address">
+        <br><br>
+        <input type="text" placeholder="Jot Your Contact Number" id="contactNum"> <span id="phoneMsg" style="color: red; font-family: Raleway;">  </span>
+        <br><br>
+        <input type="text" placeholder="Enter A Password" id="pass"> <span id="passMsg1" style="color: red; font-family: Raleway;"> </span> 
+        <br><br>
+        <span id="passMsg1"> </span> <br>
+        <input type="text" placeholder="Confirm Your Password"id="Conpass"><span id="passMsg2" style="color: red; font-family: Raleway;">  </span>
+        <br><br>
+        <input type="submit" value="Join Us" id="submit">
+        <br><br>
+        <pre id="terms">By Clicking this button, you agree to our <a href="" id="terms1">Terms and Services</a></u></pre>
+        </form>
+    </div>
+</body>
+<script src="signup.js"></script>
+</html>

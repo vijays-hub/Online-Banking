@@ -1,0 +1,9 @@
+div{
+    background-color: aqua;
+    opacity: 70%;
+    color:black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 4px ;
+    text-shadow: 0.5px 0.5px ;
+}

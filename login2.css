@@ -1,0 +1,104 @@
+@font-face{
+    font-family: Raleway;
+    src: url(Raleway-SemiBold.ttf);
+}
+
+body
+{
+    background-image: url("bank_background1.jpg");
+    background-size: cover;
+}
+#headerDiv
+{
+    height: 100px;
+    background-color: none;
+    font-family: Raleway;
+    font-size: 50px;
+    color:#FEF4E8
+
+}
+#logo
+{
+    font-family: Raleway;
+    border-right: 1px solid red;
+    padding-right: 10px;
+}
+#newAcc
+{
+    font-family: Raleway;
+    font-size: 18px;
+    margin-left: 180px;
+    margin-right: -190px;
+}
+#signUp
+{
+    text-decoration: none;
+    font-family: Raleway;
+    color : darkolivegreen;
+    font-size: 15px;
+}
+#outerDivLogin
+{
+    height: 100px;
+    width: 400px;
+    padding: 5% 10% 10% 22%;
+    margin: 0% 20% 0% 20%;
+    border: 2px solid yellow;
+    border-style: groove;
+    border-radius: 30px;
+}
+#userIcon
+{
+    margin-right: -14%;
+    border-radius: 20%;
+    margin-top: 2%;
+}
+#username
+{
+    padding-left: 10%;
+    margin-left: 7%;
+    width: 170px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid gray;
+    font-family: Raleway;
+    font-size: 15px;
+}
+#Password
+{
+    padding-left: 10%;
+    margin-left: 5%;
+    width: 170px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid gray; 
+    font-family: Raleway;
+    font-size: 15px;
+}
+#passwordIcon
+{
+    margin-right: -12%;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+#loginButton
+{
+    background-color:#FEF4E8;
+    height: 40px;
+    width: 120px;
+    border-radius: 8%;
+    margin-left: 14%;
+    margin-top: 2%;
+    font-family: Raleway;
+    font-size: 15px;
+}
+#reset
+{
+    font-family: Raleway;
+    margin-left: -80px;
+}
+.resetAnchor
+{
+    color: limegreen;
+    text-transform: none;
+}

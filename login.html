@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log In | WeUnited</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div id="headerDiv">
+        <header > 
+            <pre >  <span id="logo"><a href="bankHome.html" style="text-decoration: none;">WeUnited</a> </span>              <span id="newAcc"> Dropped in for the first time?</span> <button id="loginButton"><a href="signup.html" id="signUp">SignUp</a></button></pre>
+        </header>
+    </div>
+    <div id="outerDivLogin">
+        <form onsubmit="return loginValidation()" action="bankTransactions.html">
+            <img src="usersIcon.png" alt="userIcon" id="userIcon" height="30px" width="30px">
+            <input type="text" placeholder="Username" id="username"> <span id="userMsg"></span>
+            <br><br>
+            <img src="passwordicon.png" alt="userIcon" id="passwordIcon" height="30px" width="30px">
+            <input type="password" placeholder="Password" id="Password">
+            <input type="checkbox" onclick="myFunction()"> <span style="color:aliceblue; font-family: Raleway;">Show</span> <span id="userMsg1"></span>
+            <br><br>
+            <input type="submit" value="Secure Login" id="loginButton">
+            <br>
+            <pre id="reset"> <a href="" class="resetAnchor">Reset Password</a>                                     <a href="" class="resetAnchor">Forgot Username</a>
+        </form>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
+
+
